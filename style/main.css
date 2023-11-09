@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -53,7 +53,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: var(--tg-theme-bg-color);
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
